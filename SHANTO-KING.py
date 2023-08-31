@@ -28,9 +28,9 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36'
-header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 11; V2101 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36'
-header_grup = {"user-agent": 'Mozilla/5.0 (Linux; Android 12; CPH2223 Build/RKQ1.211119.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36'
+header_grup =  'Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/429.0.0.27.114;]'
+header_grup =  'Mozilla/5.0 (Linux; Android 11; V2101 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/285.0.0.13.118;]'
+header_grup =  'Mozilla/5.0 (Linux; Android 12; CPH2223 Build/RKQ1.211119.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/409.0.0.27.106;]'
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])

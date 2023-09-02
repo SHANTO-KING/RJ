@@ -122,7 +122,7 @@ logo =("""          \033[1;37m____ \033[1;32m                       \033[1;37m__
 
    Version   : V-1
 
-  WhatsApp   : 01310868***
+  WhatsApp   : 013108682**
   
 ===============================================\033[1;37m""")
 
@@ -239,7 +239,7 @@ def m1(ids,names,passlist):
                         elif 'checkpoint' in SH4N7O:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [SH4N7O•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open('/sdcard/SH4N7O_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                                        open(f'/sdcard/SH4N7O_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                                         open(f'/sdcard/SH4N7O•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break

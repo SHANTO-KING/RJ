@@ -28,11 +28,9 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-header_grup = 'Davik/2.1.0 (Linux; U; Android 13; 23049RAD8C Build/TKQ1.221114.001) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Xiaomi;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; U; Android 7.1.1; SM-J250F Build/NMF26X) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Samsung;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; U; Android 13; 2201122G Build/TKQ1.220807.001) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Redmi;FBBD/Xiaomi;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; U; Android 13; SM-S134DL Build/TP1A.220) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Samsung;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; U; Android 5.1.1; vivo V3Max Build/LMY47V) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/vivo;FBBD/vivo;FBDV/vivo;FBSV/5.1.1;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup = 'Davik/2.1.0 (Linux; Android 13; TECNO CK6 Build/TP1A.220624.014; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Tecno;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; Android 10; CLT-L29 Build/HUAWEICLT-L29; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Huawei;FBBD/Samsung;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  'Davik/2.1.0 (Linux; Android 10; SM-A715F Build/QP1A.190711.020; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Xiaomi;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 13; SM-G980F Build/TP1A.220624.014; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])

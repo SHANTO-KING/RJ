@@ -122,7 +122,7 @@ logo =("""          \033[1;37m____ \033[1;32m                       \033[1;37m__
 
   Facebook   : SH AN TO 
 
-   Version   : V-1
+  Version   : V-2
 
   WhatsApp   : 013108682**
   

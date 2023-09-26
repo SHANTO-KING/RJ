@@ -195,9 +195,9 @@ def SH4N7O():
 				elif mthd in ['2','02']:
 					crack_submit.submit(m2,ids,names,passlist)
 				elif mthd in ['3','03']:
-					#crack_submit.submit(m3,ids,names,passlist)
-				#elif mthd in ['4','04']:
-					#crack_submit.submit(m4,ids,names,passlist)
+					crack_submit.submit(m3,ids,names,passlist)
+				elif mthd in ['4','04']:
+					crack_submit.submit(m4,ids,names,passlist)
 				#elif mthd in ['5','05']:
 					#crack_submit.submit(m5,ids,names,passlist)
 				#elif mthd in ['6','06']:

